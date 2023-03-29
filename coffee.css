@@ -1,0 +1,143 @@
+.headerImg{
+    width: 15%;
+}
+
+.advertImg{
+    width: 25%;
+}
+
+*{
+    /* box-sizing: border-box; */
+}
+
+body{
+    background-color: rgb(231, 231, 154);
+   
+}
+h1{
+    font-size: 2em;
+}
+.holder{
+    background-color:rgb(243, 243, 196);
+    text-align: center;
+    padding: 5px 10px;
+    margin-bottom: 8px;
+    margin-left: 25px;
+    margin-right: 25px;
+   
+    
+}
+.priceTab{
+    border-bottom: 3px solid rgb(231, 231, 154);
+}
+.info{
+    border-bottom: 3px solid rgb(231, 231, 154);
+}
+.infoHeaders{
+    color: rgb(186, 39, 39);
+    font-size:2em;
+}
+.menu{
+    font-size: 1.5em;
+    font-weight: 100;
+    color:rgb(53, 26, 26);
+    line-height: 1.5;   
+    letter-spacing: 1px;
+}
+
+.menuLink{
+    color: red;
+    text-decoration-style: dotted;
+}
+a:visted{
+    color: brown;
+}
+a:hover{
+    color:rgb(211, 65, 11);
+}
+
+.menuHeaders{
+    font-size: 1.5em;
+    color:rgb(53, 26, 26);
+}
+.pageHeader{
+    background-color:rgb(149, 149, 89) ;
+    padding:15px 10px;
+    color: whitesmoke;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+.motto{
+    color:rgb(186, 39, 39) ;
+    font-size: 1em;
+}
+.myFooter{
+    text-align: center;
+    background-color:rgb(149, 149, 89) ;
+    padding:3px 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.footerParagraph{
+    color: whitesmoke;
+    font-size: 1em;
+    line-height: 1.5;   
+    letter-spacing: 1px;
+}
+
+@media(min-width:800px){
+    .holder{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 25px;
+        margin-top: none;
+       
+
+    }
+    .priceTab{
+        border-bottom: none;
+        border-right: 25px solid rgb(231, 231, 154);
+        padding:40px;
+    }
+    .info{
+        border-bottom: none;
+        border-right: 25px solid rgb(231, 231, 154);
+        padding:35px;   
+    }
+    .infoHeaders{
+        font-size: 3em;
+        font-weight: 1000;
+    }
+    h1{
+        font-size:5em;
+    }
+    
+    .headerImg{
+        width:10%;
+    }
+    .menu{
+        font-size: 3em;
+        line-height:1.5;   
+        letter-spacing:1px;
+    }
+    .menuHeaders{
+        font-size: 2.5em;
+    }
+    .adContainer{
+        display: flex;
+        align-items: center;
+        padding:10px;
+    }
+    .advertImg{
+        width:40%;
+    }
+    .motto{
+        font-size: 2em;
+        font-weight:550;
+    }
+    .footerParagraph{
+        font-size: 2.5em;
+    }
+}
